@@ -1,0 +1,154 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.6in}
+\addtolength{\textwidth}{1.2in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.35in}
+\setlength{\footskip}{4.1pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\huge \scshape Wenfeng Liang} \\ \vspace{1pt}
+    \small Hangzhou, China $|$
+    Founder \& CEO, DeepSeek $|$
+    Co-founder, High-Flyer Quant \\
+    \small \href{https://www.deepseek.com}{deepseek.com} $|$
+    \href{https://github.com/deepseek-ai}{github.com/deepseek-ai}
+\end{center}
+
+\section{Summary}
+\small{AI founder and quantitative systems builder focused on frontier LLMs, reasoning systems, and efficient training infrastructure. Founded DeepSeek in 2023; previously co-founded High-Flyer Quant, applying machine learning, large-scale data systems, and automated research pipelines to quantitative investment.}
+
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {DeepSeek}{Hangzhou, China}
+    {Founder and Chief Executive Officer}{2023 -- Present}
+    \resumeItemListStart
+      \resumeItem{Set technical direction for open-weight LLMs, reasoning models, and cost-efficient training systems.}
+      \resumeItem{Built teams across architecture, pretraining, reinforcement learning, evaluation, systems, and inference optimization.}
+      \resumeItem{Led public model releases emphasizing practical deployment, open access, and transparent technical reporting.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {High-Flyer Quant}{Hangzhou, China}
+    {Co-founder and Quantitative Research Leader}{2015 -- Present}
+    \resumeItemListStart
+      \resumeItem{Co-founded an AI-driven quantitative investment firm using statistical learning and large-scale feature engineering for systematic trading.}
+      \resumeItem{Directed investment in compute infrastructure, automated research pipelines, and production model deployment.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Selected Technical Leadership}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{Open Large Language Model Development} $|$ \emph{LLM pretraining, alignment, inference}}{2023 -- Present}
+    \resumeItemListStart
+      \resumeItem{Led open model releases designed for broad developer access, independent evaluation, and efficient deployment.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Reasoning Model Systems} $|$ \emph{reinforcement learning, evaluation, scalable training}}{2024 -- Present}
+    \resumeItemListStart
+      \resumeItem{Coordinated data generation, reward design, distributed training, evaluation, and inference-time behavior.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{AI Quant Research Infrastructure} $|$ \emph{ML systems, data platforms, distributed compute}}{2015 -- 2023}
+    \resumeItemListStart
+      \resumeItem{Built research infrastructure for data ingestion, model training, experiment tracking, backtesting, and production deployment.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Selected Publications and Technical Reports}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{DeepSeek-V3 Technical Report} $|$ \emph{DeepSeek-AI technical report}}{2024}
+    \resumeItemListStart
+      \resumeItem{Co-authored technical report describing the DeepSeek-V3 model family, including model architecture, training pipeline, efficiency choices, and evaluation results.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Native Sparse Attention} $|$ \emph{efficient long-context attention}}{2025}
+    \resumeItemListStart
+      \resumeItem{Co-authored study on sparse attention mechanisms for improving efficiency when processing long-context model inputs.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{Insights into DeepSeek-V3} $|$ \emph{scaling and hardware-software co-design}}{2025}
+    \resumeItemListStart
+      \resumeItem{Co-authored technical analysis on scaling challenges, memory efficiency, inter-chip communication, and hardware-aware AI infrastructure design.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Zhejiang University}{Hangzhou, China}
+    {M.S. in Information and Communication Engineering}{Completed 2010}
+  \resumeSubheading
+    {Zhejiang University}{Hangzhou, China}
+    {B.S. in Electronics and Communication Engineering}{Completed 2007}
+\resumeSubHeadingListEnd
+
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Research Areas}{: large language models, reasoning models, reinforcement learning, quantitative modeling, statistical learning, model evaluation} \\
+    \textbf{Systems}{: distributed training, GPU clusters, data pipelines, model serving, experiment infrastructure, high-throughput inference} \\
+    \textbf{Leadership}{: research strategy, open-source model release, AI lab building, technical recruiting, cross-functional engineering management}
+  }}
+\end{itemize}
+
+\end{document}
