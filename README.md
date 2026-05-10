@@ -1,6 +1,6 @@
 # CV Index
 
-This repository contains a LaTeX CV for Wenfeng Liang, written in a one-page software/algorithm engineering resume style.
+This repository contains a LaTeX CV for Wenfeng Liang, a great Chinese AGI contributor I really respected. It is written in a one-page software/algorithm engineering resume style.
 
 Template choice:
 
